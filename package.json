@@ -1,0 +1,28 @@
+{
+  "name": "telegraf-boilerplate",
+  "version": "1.0.0",
+  "description": "A highly scalable with best developer experienced foundation for telegrafjs lovers! You can just focus on performance and best practice.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahercoder/telegraf-boilerplate.git"
+  },
+  "author": "Mohirbek Odiljonov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahercoder/telegraf-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mahercoder/telegraf-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "redis": "^4.2.0",
+    "sequelize": "^6.21.2",
+    "sqlite3": "^5.0.8",
+    "telegraf": "^4.8.5",
+    "telegraf-session-redis": "^5.1.0"
+  }
+}

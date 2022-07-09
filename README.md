@@ -1,2 +1,2 @@
 # telegraf-boilerplate
-A highly scalable foundation for telegrafjs lovers!
+A highly scalable with best developer experienced foundation for telegrafjs lovers! You can just focus on performance and best practice.
