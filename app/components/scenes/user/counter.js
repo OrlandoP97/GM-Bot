@@ -10,6 +10,11 @@ scene.enter( async ctx => {
 
 scene.command('exit', async ctx => {
     ctx.reply(ctx.session.counter)
+    ctx.scene.leave()
+})
+
+scene.on('text', async ctx => {
+    ctx.reply(ctx.message.text)
 })
 
 module.exports = scene

@@ -1,4 +1,3 @@
-const { session: memorySession } = require('telegraf')
 const RedisSession = require('telegraf-session-redis')
 
 const customSession = new RedisSession({
