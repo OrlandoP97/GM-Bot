@@ -1,2 +1,2 @@
-# telegraf-boilerplate
-A highly scalable with best developer experienced foundation for telegrafjs lovers! You can just focus on performance and best practice.
+## GM BOT ##
+A basic Telegram Bot using Telegraf, that gives the good morning to users everyday at 7am on their local timezone.
