@@ -13,12 +13,15 @@ async function run(){
           
           if (localTime.getHours() === 7 && localTime.getMinutes() === 0) {
             bot.sendMessage(ctx.message.from.id, 'Good morning!');
+          } else if (localTime.getHours() === 13 && localTime.getMinutes() === 0) {
+            bot.sendMessage(ctx.message.from.id, 'Good afternoon!');
           }
+        
         });
         
         // Start the bot
         bot.startPolling();
-        console.log("Bot running...");
+        console.log("Bot running with new changes...");
     } catch(err) {
         console.log(err)
     }
